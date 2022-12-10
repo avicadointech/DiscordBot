@@ -10,11 +10,11 @@ client = commands.Bot(command_prefix="$",
 
 @client.event
 async def on_ready():
-  print('avi')
+  print('botcado is online!')
 
 @client.event
 async def on_message(message):
   if (message.channel.id == 1034430668819668992):
 
-    if (message.content.lower() != "uwu"):
+    if (message.content.lower() != "avi"):
       await message.delete()
